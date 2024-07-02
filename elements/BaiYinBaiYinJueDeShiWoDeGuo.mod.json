@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Record",
+    "texture": "baiyinbaiyinjuedeshiwodeguo",
+    "description": "欠债调音师 - ♿Bones♿",
+    "creativeTab": {
+      "value": "CUSTOM:XAMSMemesModInInternet"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:baiyingbaiyingjuedeshiwodeguo"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

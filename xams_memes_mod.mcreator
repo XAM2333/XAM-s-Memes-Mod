@@ -1,0 +1,1750 @@
+{
+  "mod_elements": [
+    {
+      "name": "JennyCore",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_core.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/JennyCoreItem.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "XAMSMemesModInClass",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xams_memes_mod_in_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/itemgroup/XAMSMemesModInClassItemGroup.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "ThisIsTrueDirt",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_true_dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/block/ThisIsTrueDirtBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/this_is_true_dirt.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/this_is_true_dirt.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/this_is_true_dirt.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "ThisIsTrueDirtR",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_true_dirt_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/this_is_true_dirt_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennySummoner",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_summoner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_summoner.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/JennySummonerItem.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "Jenny",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/entity/JennyEntity.java",
+          "src/main/java/net/mcreator/xamsmemesmod/entity/renderer/JennyRenderer.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennySummonerDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_summoner_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/JennySummonerDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "HuaJiTree",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/blockstates/hua_ji_tree.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/HuaJiTreeBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/block/hua_ji_tree.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/hua_ji_tree.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "HuaJiFruit",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/hua_ji_fruit.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/HuaJiFruitItem.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "XAMSMemesModInInternet",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xams_memes_mod_in_internet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/itemgroup/XAMSMemesModInInternetItemGroup.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "MemesRecord",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memes_record",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/MemesRecordItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/memes_record.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "MemesRecordR",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memes_record_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/memes_record_r.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "JennySummonerR",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_summoner_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/jenny_summoner_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "ModSetup",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_setup",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/advancements/mod_setup.json"
+        ]
+      }
+    },
+    {
+      "name": "JennyA",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/advancements/jenny_a.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "TallMilkPowderWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_milk_powder_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/TallMilkPowderWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "TallMilkPowder",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_milk_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/TallMilkPowderItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/tall_milk_powder.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "TallMilkPowderR",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_milk_powder_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/tall_milk_powder_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "ThisIsTrueMusic",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_true_music",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/ThisIsTrueMusicItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/this_is_true_music.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "ThisIsTrueMusicR",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_true_music_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/this_is_true_music_r.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "ShuoDeDaoLi",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuo_de_dao_li",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/entity/renderer/ShuoDeDaoLiRenderer.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/shuo_de_dao_li_spawn_egg.json",
+          "src/main/java/net/mcreator/xamsmemesmod/entity/ShuoDeDaoLiEntity.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "JiuCaiHeZi",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiu_cai_he_zi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/JiuCaiHeZiItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/jiu_cai_he_zi.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "Bing",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/bing.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/BingItem.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "ShuoDeDaoLiZLP",
+      "type": "loottable",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuo_de_dao_li_zlp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/loot_tables/entities/shuo_de_dao_li.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "BaiYinBaiYinJueDeShiWoDeGuo",
+      "type": "musicdisc",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bai_yin_bai_yin_jue_de_shi_wo_de_guo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/bai_yin_bai_yin_jue_de_shi_wo_de_guo.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/BaiYinBaiYinJueDeShiWoDeGuoItem.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "Lizhi",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lizhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/LizhiItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/lizhi.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiGan",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_gan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/LiZhiGanItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_gan.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiToLiZhiGan",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_to_li_zhi_gan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_to_li_zhi_gan.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiToLiZhiGan1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_to_li_zhi_gan_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_to_li_zhi_gan_1.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiToLiZhiGan2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_to_li_zhi_gan_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_to_li_zhi_gan_2.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "ShiBuShiYouBing",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shi_bu_shi_you_bing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/ShiBuShiYouBingItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/shi_bu_shi_you_bing.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "ShiBuShiYouBingR",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shi_bu_shi_you_bing_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/shi_bu_shi_you_bing_r.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "MeiYouJiaoYang",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mei_you_jiao_yang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/MeiYouJiaoYangItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/mei_you_jiao_yang.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodWood",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodWoodBlock.java",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_wood.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_wood.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_wood.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodLog",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_log.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_log.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_log.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodLogBlock.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodPlanks",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_planks.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_planks.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodPlanksBlock.java",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_planks.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodLeaves",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_leaves.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_leaves.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_leaves.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodLeavesBlock.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodStairs",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_stairs_outer.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_stairs.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodStairsBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_stairs.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_stairs.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_stairs_inner.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodSlab",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodSlabBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_slab.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_slab.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_slab_full.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_slab.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_slab_top.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodFence",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_fence.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_inventory.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodFenceBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_post.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_fence.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodFenceGate",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodFenceGateBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_gate_open.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_fence_gate.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_fence_gate.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_gate_wall.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_fence_gate.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodPressurePlate",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodPressurePlateBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_pressure_plate_down.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_pressure_plate.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_pressure_plate.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_pressure_plate.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodButton",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_wood_button.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_button.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiWoodButtonBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_button_pressed.json",
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_wood_button_inventory.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_wood_button.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodItemsTag",
+      "type": "tag",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/lizhiwood_log.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_wood_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_planks_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_slab_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_fence_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_button_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/li_zhi_wood_stick_recipe.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiForest",
+      "type": "biome",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/world/biome/LiZhiForestBiome.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiTree",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/world/structure/LiZhiTreeStructure.java"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "MeiYouJiaoYangR",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mei_you_jiao_yang_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/mei_you_jiao_yang_r.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiWoodLeavesZLP",
+      "type": "loottable",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_wood_leaves_zlp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/loot_tables/blocks/li_zhi_wood_leaves.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "XiangJingJianYu",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiang_jing_jian_yu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/XiangJingJianYuItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/xiang_jing_jian_yu.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "XiangJingJianYuR",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiang_jing_jian_yu_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/xiang_jing_jian_yu_r.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "PenWuQiFrozenBlockDangShengWuWanJiaPengZhuangFangKuaiShi",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_wu_qi_frozen_block_dang_sheng_wu_wan_jia_peng_zhuang_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/PenWuQiFrozenBlockDangShengWuWanJiaPengZhuangFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PenWuQiFrozenBlockGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_wu_qi_frozen_block_geng_xin_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/PenWuQiFrozenBlockGengXinYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "Pearl",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/pearl.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/PearlItem.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlDirt",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/PearlDirtItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/pearl_dirt.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlR",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/pearl_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlDirtR",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_dirt_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/pearl_dirt_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlDiamond",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/pearl_diamond.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/PearlDiamondItem.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlStick",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/PearlStickItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/pearl_stick.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlDiamondR",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_diamond_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/pearl_diamond_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PearlStickR",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_stick_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/pearl_stick_r.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyZLP",
+      "type": "loottable",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_zlp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/loot_tables/entities/jenny.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennySwordDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_sword_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/JennySwordDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennySwordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_sword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/JennySwordDangShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennySword",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_sword.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/JennySwordItem.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorArmor",
+      "type": "armor",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_armor_armor_helmet.json",
+          "src/main/java/net/mcreator/xamsmemesmod/item/JennyArmorArmorItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_armor_armor_leggings.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_armor_armor_boots.json",
+          "src/main/resources/assets/xams_memes_mod/models/item/jenny_armor_armor_chestplate.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/jenny_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/jenny_armor_armor_body_recipe.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/jenny_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/recipes/jenny_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "JennyArmorSpeed",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jenny_armor_speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/JennyArmorSpeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "LiZhiSapling",
+      "type": "plant",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/block/li_zhi_sapling.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/LiZhiSaplingBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/li_zhi_sapling.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/li_zhi_sapling.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiSaplingGrow",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_sapling_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/LiZhiSaplingGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LiZhiSaplingBoneMealGrow",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li_zhi_sapling_bone_meal_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/LiZhiSaplingBoneMealGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/memes in internet"
+    },
+    {
+      "name": "PenWuQiDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_wu_qi_dang_you_jian_dian_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/PenWuQiDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PenWuQi",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_wu_qi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/PenWuQiItem.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/pen_wu_qi.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "PenWuQiFrozenBlock",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_wu_qi_frozen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/block/pen_wu_qi_frozen_block.json",
+          "src/main/java/net/mcreator/xamsmemesmod/block/PenWuQiFrozenBlockBlock.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/pen_wu_qi_frozen_block.json",
+          "src/main/resources/assets/xams_memes_mod/blockstates/pen_wu_qi_frozen_block.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "FrozenXianShiYouXiNeiDieJiaCeng",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_xian_shi_you_xi_nei_die_jia_ceng",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/FrozenXianShiYouXiNeiDieJiaCengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "YiChun",
+      "type": "livingentity",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yi_chun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/xams_memes_mod/models/item/yi_chun_spawn_egg.json",
+          "src/main/java/net/mcreator/xamsmemesmod/entity/YiChunEntity.java",
+          "src/main/java/net/mcreator/xamsmemesmod/entity/renderer/YiChunRenderer.java"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "YiChunDangShiTiGengXinKeShi",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yi_chun_dang_shi_ti_geng_xin_ke_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/procedures/YiChunDangShiTiGengXinKeShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "Mop",
+      "type": "rangeditem",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/xamsmemesmod/item/MopItem.java",
+          "src/main/java/net/mcreator/xamsmemesmod/entity/renderer/MopRenderer.java",
+          "src/main/resources/assets/xams_memes_mod/models/item/mop.json"
+        ]
+      },
+      "path": "~/memes in class"
+    },
+    {
+      "name": "YiChunZLP",
+      "type": "loottable",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yi_chun_zlp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/xams_memes_mod/loot_tables/entities/yi_chun.json"
+        ]
+      },
+      "path": "~/memes in class"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "jenny",
+      "files": [
+        "zhen_ni_"
+      ],
+      "category": "player",
+      "subtitle": "珍妮！！！"
+    },
+    {
+      "name": "dajidalijinwanchiji",
+      "files": [
+        "da_ji_da_li_jin_wan_chi_ji_"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "baiyingbaiyingjuedeshiwodeguo",
+      "files": [
+        "bones"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "shuodedaolishoushang",
+      "files": [
+        "a_",
+        "bie_zhui_la_",
+        "feng_ming_",
+        "wo_cao_"
+      ],
+      "category": "neutral",
+      "subtitle": "说的道理：受伤"
+    },
+    {
+      "name": "shuodedaolishuohua",
+      "files": [
+        "da_jia_hao_a_wo_shi_",
+        "du_du_du_",
+        "ai_wu_zi_",
+        "ai_ya_mi_nuo_si_",
+        "gun_ge_jiao_ni_chang_shuo_de_dao_li_"
+      ],
+      "category": "neutral",
+      "subtitle": "说的道理：说话"
+    },
+    {
+      "name": "shuodedaolisiwang",
+      "files": [
+        "ai_wo_you_si_la_",
+        "wa_ao_",
+        "wo_chan_shu_ni_de_meng_"
+      ],
+      "category": "neutral",
+      "subtitle": "说的道理：死亡"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.xams_memes_mod.li_zhi_wood_log": "LiZhiWood Log",
+      "block.xams_memes_mod.li_zhi_wood_fence": "LiZhiWood Fence",
+      "block.xams_memes_mod.li_zhi_wood_wood": "LiZhiWood Wood",
+      "item.xams_memes_mod.jenny_summoner": "Jenny Summoner",
+      "item.xams_memes_mod.hua_ji_fruit": "Hua Ji Fruit",
+      "item.xams_memes_mod.mei_you_jiao_yang": "Mei You Jiao Yang",
+      "entity.xams_memes_mod.shuo_de_dao_li": "Shuo De Dao Li",
+      "subtitles.jenny": "JENNY!!!",
+      "item.xams_memes_mod.bai_yin_bai_yin_jue_de_shi_wo_de_guo.desc": "欠债调音师 - ♿Bones♿",
+      "item.xams_memes_mod.lizhi": "Lizhi",
+      "item.xams_memes_mod.jenny_spawn_egg": "Jenny Spawn Egg",
+      "item.xams_memes_mod.xiang_jing_jian_yu": "Xiang Jing Jian Yu",
+      "item.xams_memes_mod.shi_bu_shi_you_bing": "Shi Bu Shi You Bing",
+      "item.xams_memes_mod.this_is_true_music.desc": "Liu Jiang - Winner Winner Chicken Dinner,This is true music!",
+      "block.xams_memes_mod.li_zhi_wood_slab": "LiZhiWood Slab",
+      "item.xams_memes_mod.shuo_de_dao_li_spawn_egg": "Shuo De Dao Li Spawn Egg",
+      "item.xams_memes_mod.jenny_armor_armor_leggings": "Jenny Leggings",
+      "item.xams_memes_mod.jiu_cai_he_zi": "Jiu Cai He Zi",
+      "subtitles.shuodedaolisiwang": "说的道理：死亡",
+      "block.xams_memes_mod.li_zhi_wood_fence_gate": "LiZhiWood Fence Gate",
+      "item.xams_memes_mod.this_is_true_music": "Music Record",
+      "item.xams_memes_mod.jenny_armor_armor_chestplate": "Jenny Chestplate",
+      "block.xams_memes_mod.this_is_true_dirt": "This Is True Dirt!",
+      "item.xams_memes_mod.memes_record": "Memes Record - Empty",
+      "block.xams_memes_mod.li_zhi_wood_planks": "LiZhiWood Planks",
+      "advancements.jenny_a.descr": "Get [Jenny Summoner].",
+      "subtitles.shuodedaolishoushang": "说的道理：受伤",
+      "block.xams_memes_mod.li_zhi_wood_leaves": "LiZhiWood Leaves",
+      "block.xams_memes_mod.li_zhi_sapling": "Li Zhi Sapling",
+      "item.xams_memes_mod.jenny_armor_armor_boots": "Jenny Boots",
+      "advancements.mod_setup.descr": "Use this mod in your Minecraft saves.",
+      "item.xams_memes_mod.pen_wu_qi": "Pen Wu Qi",
+      "item.xams_memes_mod.yi_chun_spawn_egg": "Yi Chun Spawn Egg",
+      "item.xams_memes_mod.pearl": "Pearl",
+      "block.xams_memes_mod.li_zhi_wood_button": "LiZhiWood Button",
+      "block.xams_memes_mod.li_zhi_wood_stairs": "LiZhiWood Stairs",
+      "block.xams_memes_mod.hua_ji_tree": "Hua Ji Tree",
+      "item.xams_memes_mod.pearl_dirt": "Pearl Dirt",
+      "subtitles.baiyingbaiyingjuedeshiwodeguo": "",
+      "item.xams_memes_mod.bai_yin_bai_yin_jue_de_shi_wo_de_guo": "Music Record",
+      "item.xams_memes_mod.bing": "WOCAO!ICE!!!",
+      "subtitles.shuodedaolishuohua": "Shuo De Dao Li:Talk",
+      "biome.xams_memes_mod.li_zhi_forest": "Li Zhi Forest",
+      "itemGroup.tabxams_memes_mod_in_internet": "XAM\u0027s Memes Mod - In Internet",
+      "death.attack.jennyshili": "",
+      "advancements.jenny_a.title": "JENNY!!!",
+      "block.xams_memes_mod.li_zhi_wood_pressure_plate": "LiZhiWood Pressure Plate",
+      "item.xams_memes_mod.pearl_diamond": "Pearl Diamond",
+      "block.xams_memes_mod.pen_wu_qi_frozen_block": "Pen Wu Qi Frozen Block",
+      "item.xams_memes_mod.mop": "Mop",
+      "advancements.mod_setup.title": "Memes,Startup!",
+      "item.xams_memes_mod.jenny_sword": "Jenny Sword",
+      "item.xams_memes_mod.jenny_core": "Jenny Core",
+      "item.xams_memes_mod.li_zhi_gan": "Li Zhi Gan",
+      "itemGroup.tabxams_memes_mod_in_class": "XAM\u0027s Memes Mod - In Class",
+      "entity.xams_memes_mod.jenny": "Jenny",
+      "entity.xams_memes_mod.yi_chun": "Yi Chun",
+      "item.xams_memes_mod.pearl_stick": "Pearl Stick",
+      "item.xams_memes_mod.jenny_armor_armor_helmet": "Jenny Helmet"
+    },
+    "zh_cn": {
+      "block.xams_memes_mod.li_zhi_wood_log": "LiZhiWood Log",
+      "block.xams_memes_mod.li_zhi_wood_fence": "LiZhiWood Fence",
+      "block.xams_memes_mod.li_zhi_wood_wood": "LiZhiWood Wood",
+      "item.xams_memes_mod.jenny_summoner": "珍妮生成器",
+      "item.xams_memes_mod.hua_ji_fruit": "滑稽果",
+      "item.xams_memes_mod.mei_you_jiao_yang": "Mei You Jiao Yang",
+      "entity.xams_memes_mod.shuo_de_dao_li": "说的道理",
+      "subtitles.jenny": "珍妮！！！",
+      "item.xams_memes_mod.bai_yin_bai_yin_jue_de_shi_wo_de_guo.desc": "欠债调音师 - ♿Bones♿",
+      "item.xams_memes_mod.lizhi": "Lizhi",
+      "item.xams_memes_mod.jenny_spawn_egg": "Jenny Spawn Egg",
+      "item.xams_memes_mod.xiang_jing_jian_yu": "Xiang Jing Jian Yu",
+      "item.xams_memes_mod.shi_bu_shi_you_bing": "Shi Bu Shi You Bing",
+      "item.xams_memes_mod.this_is_true_music.desc": "刘江 - 吃鸡（加速版）",
+      "block.xams_memes_mod.li_zhi_wood_slab": "LiZhiWood Slab",
+      "item.xams_memes_mod.shuo_de_dao_li_spawn_egg": "生成 说的道理",
+      "item.xams_memes_mod.jenny_armor_armor_leggings": "JennyArmor Leggings",
+      "item.xams_memes_mod.jiu_cai_he_zi": "韭菜盒子",
+      "subtitles.shuodedaolisiwang": "说的道理：死亡",
+      "block.xams_memes_mod.li_zhi_wood_fence_gate": "LiZhiWood Fence Gate",
+      "item.xams_memes_mod.this_is_true_music": "音乐唱片",
+      "item.xams_memes_mod.jenny_armor_armor_chestplate": "JennyArmor Chestplate",
+      "block.xams_memes_mod.this_is_true_dirt": "真正的稀泥！",
+      "item.xams_memes_mod.memes_record": "梗唱片 - 空",
+      "block.xams_memes_mod.li_zhi_wood_planks": "LiZhiWood Planks",
+      "advancements.jenny_a.descr": "获得[珍妮生成器]。",
+      "subtitles.shuodedaolishoushang": "说的道理：受伤",
+      "block.xams_memes_mod.li_zhi_wood_leaves": "LiZhiWood Leaves",
+      "block.xams_memes_mod.li_zhi_sapling": "Li Zhi Sapling",
+      "item.xams_memes_mod.jenny_armor_armor_boots": "JennyArmor Boots",
+      "advancements.mod_setup.descr": "在你的存档里加载本模组！",
+      "item.xams_memes_mod.pen_wu_qi": "Pen Wu Qi",
+      "item.xams_memes_mod.yi_chun_spawn_egg": "Yi Chun Spawn Egg",
+      "item.xams_memes_mod.pearl": "Pearl",
+      "block.xams_memes_mod.li_zhi_wood_button": "LiZhiWood Button",
+      "block.xams_memes_mod.li_zhi_wood_stairs": "LiZhiWood Stairs",
+      "block.xams_memes_mod.hua_ji_tree": "滑稽树",
+      "item.xams_memes_mod.pearl_dirt": "Pearl Dirt",
+      "subtitles.baiyingbaiyingjuedeshiwodeguo": "",
+      "item.xams_memes_mod.bai_yin_bai_yin_jue_de_shi_wo_de_guo": "音乐唱片",
+      "item.xams_memes_mod.bing": "卧槽！！冰！！！",
+      "subtitles.shuodedaolishuohua": "说的道理：说话",
+      "biome.xams_memes_mod.li_zhi_forest": "Li Zhi Forest",
+      "itemGroup.tabxams_memes_mod_in_internet": "XAM的梗模组 - 网络梗",
+      "death.attack.jennyshili": "",
+      "advancements.jenny_a.title": "珍妮！！！",
+      "block.xams_memes_mod.li_zhi_wood_pressure_plate": "LiZhiWood Pressure Plate",
+      "item.xams_memes_mod.pearl_diamond": "Pearl Diamond",
+      "block.xams_memes_mod.pen_wu_qi_frozen_block": "Pen Wu Qi Frozen Block",
+      "item.xams_memes_mod.mop": "Mop",
+      "advancements.mod_setup.title": "梗模组，启动！",
+      "item.xams_memes_mod.jenny_sword": "Jenny Sword",
+      "item.xams_memes_mod.jenny_core": "珍妮核心",
+      "item.xams_memes_mod.li_zhi_gan": "Li Zhi Gan",
+      "itemGroup.tabxams_memes_mod_in_class": "XAM的梗模组 - 班级梗",
+      "entity.xams_memes_mod.jenny": "珍妮",
+      "entity.xams_memes_mod.yi_chun": "Yi Chun",
+      "item.xams_memes_mod.pearl_stick": "Pearl Stick",
+      "item.xams_memes_mod.jenny_armor_armor_helmet": "JennyArmor Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "memes in class",
+        "children": []
+      },
+      {
+        "name": "memes in internet",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "xams_memes_mod",
+    "modName": "XAM\u0027s Memes Mod",
+    "version": "0.0.1",
+    "author": "XAM",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.xamsmemesmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

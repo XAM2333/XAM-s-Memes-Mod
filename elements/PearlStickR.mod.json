@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PearlDirt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PearlDirt"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:PearlDirt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PearlDirt"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PearlStick"
+    },
+    "name": "pearl_stick_r",
+    "namespace": "mod"
+  }
+}

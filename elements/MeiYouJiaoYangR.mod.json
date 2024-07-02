@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lizhi"
+      },
+      {
+        "value": "CUSTOM:Lizhi"
+      },
+      {
+        "value": "CUSTOM:Lizhi"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "CUSTOM:Lizhi"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MeiYouJiaoYang"
+    },
+    "name": "mei_you_jiao_yang_r",
+    "namespace": "mod"
+  }
+}

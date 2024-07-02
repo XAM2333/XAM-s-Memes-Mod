@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pearl"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:Pearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pearl"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PearlDiamond"
+    },
+    "name": "pearl_diamond_r",
+    "namespace": "mod"
+  }
+}

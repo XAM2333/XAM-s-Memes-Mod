@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 1.0,
+    "cookingTime": 600,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:Lizhi"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:LiZhiGan"
+    },
+    "name": "li_zhi_to_li_zhi_gan_2",
+    "namespace": "mod"
+  }
+}

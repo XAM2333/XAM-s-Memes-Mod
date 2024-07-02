@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LiZhiWoodWood"
+      },
+      {
+        "value": "CUSTOM:LiZhiWoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "lizhiwood_log",
+    "namespace": "forge"
+  }
+}
